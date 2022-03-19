@@ -1,0 +1,65 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body, html{     /* configuracao padrao */ 
+
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+head title{
+    text-align: center;
+}
+.conteudo{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}.conteudo h2{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+    /* efeito paralissi */
+
+    .caixa1, .caixa2,.caixa3,.caixa4{
+        height: 100%;
+        opacity: 0.7;
+        background-repeat:no-repeat ;
+        background-size:cover ;
+        background-position:center ;
+        background-attachment:fixed ;
+        position: relative;
+
+    }
+    .caixa1{
+        background-image: url(../Paralassi/imagens/imagem1.jpg);
+    }
+
+    .caixa2{
+        background-image: url(../Paralassi/imagens/imagem2.jpg);
+
+    }
+    .caixa3{
+        background-image: url(../Paralassi/imagens/imagem3.jpg);
+
+    }
+    .caixa4{
+        background-image: url(../Paralassi/imagens/imagem4.jpg);
+
+    }.conteudo2{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+
+
+    }.conteudo2 span.texto{
+        color: #fff;
+        background-color: #111;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
